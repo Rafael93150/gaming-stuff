@@ -1,0 +1,131 @@
+#section-4{
+    height: 420px;
+    width: 100%;
+    background-image: url('../img/pexels-photo-3945673.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-4-image{
+    height: 326px;
+    width: 360px;
+    background-image: url('../img/pexels-photo-3593983.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#section-4-image h2{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#section-4-text{
+    height: 326px;
+    width: 360px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#section-4-text p{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: right;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width: 1000px){
+    #section-4{
+        height: 780px;
+    }
+
+    #section-4-image{
+        height: 85%;
+        width: 450px;
+    }
+
+    #section-4 br{
+        display: none;
+    }
+    
+    #section-4-text{
+        height: 85%;
+    }
+    
+
+    #section-4-text p{
+        line-height: 50px;
+    }
+}
+
+@media(min-width: 1200px){
+    #section-4-image{
+        margin-right: 20%;
+    }
+}
+
+@media(max-width: 800px){
+    #section-4-image{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    #section-4{
+        flex-direction: column;
+        height: 900px;
+    }
+
+    #section-4-image{
+        margin-left: 0;
+        width: 80%;
+        height: 650px;
+    }
+
+    #section-4-text{
+        height: fit-content;
+        width: 80%;
+    }
+
+    #section-4 #section-4-image br{
+        display: none;
+    }
+}
+
+@media(max-width: 550px){
+    #section-4{
+        flex-direction: column;
+        height: 600px;
+    }
+
+    #section-4-image{
+        margin-left: 0;
+        width: 80%;
+        height: 350px;
+    }
+
+    #section-4-text{
+        height: fit-content;
+        width: 80%;
+    }
+
+    #section-4 #section-4-image br{
+        display: none;
+    }
+}

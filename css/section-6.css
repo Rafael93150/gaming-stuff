@@ -1,0 +1,123 @@
+#section-6{
+    max-width: 100%;
+    padding: 0 120px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-6 h2{
+    margin-bottom: 20px;
+}
+
+#section-6 h5{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#section-6 p{
+    color: #000;
+    margin-bottom: 40px;
+}
+
+#section-6-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#section-6-container div{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0px;
+    height: 194px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#section-6-container div:nth-of-type(2){
+    background-color: #f2f2f2;
+}
+
+#section-6-container div i{
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+#section-6-image{
+    height: 650px;
+    max-width: 100%;
+    background-image: url('../img/pexels-photo-3945673.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+@media(min-width: 1000px){
+    #section-6{
+        flex-direction: row;
+        padding: 5%;
+        justify-content: center;
+    }
+
+    #section-6-image{
+        height: 650px;
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    #section-6-big-container{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section-6-container{
+        margin-top: auto;
+    }
+}
+
+@media(min-width: 1200px){
+    #section-6{
+        flex-direction: row;
+        padding: 5%;
+        justify-content: center;
+    }
+
+    #section-6-image{
+        height: 650px;
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    #section-6-big-container{
+        width: 650px;
+    }
+}
+
+@media(max-width: 750px){
+    #section-6{
+        padding: 60px 10%;
+    }
+
+    #section-6-container{
+        flex-direction: column;
+    }
+
+    #section-6-container div{
+        padding: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    #section-6-image{
+        height: 310px;
+    }
+}

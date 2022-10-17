@@ -1,0 +1,16 @@
+#section-8{
+    background-image: url('../img/pexels-photo-3593983.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+#section-8 h2{
+    display: inline-block;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}

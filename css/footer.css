@@ -1,0 +1,17 @@
+footer{
+    background-color: #333;
+    height: 240px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p a{
+    color: #ccc;
+}
+
+footer p{
+    color: #fff;
+}
